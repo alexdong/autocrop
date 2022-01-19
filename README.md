@@ -1,8 +1,8 @@
 # autocrop
-A face-aware crop utility using OSX's Vision framework
+A high-performance face-aware crop utility using OSX's Vision framework. 
 
 This utility takes a photo, detect every face in the image file and 
-save it as a jpg file in the directory you specified. 
+save it as a square jpg file in the directory you specified. 
 
 Here are a few examples:
 
