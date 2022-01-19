@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A539116A279797CA00ACA850 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5391169279797CA00ACA850 /* main.swift */; };
+		A5391172279798F200ACA850 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5391171279798F200ACA850 /* AppKit.framework */; platformFilter = maccatalyst; };
+		A5391174279798FB00ACA850 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5391173279798FB00ACA850 /* Vision.framework */; platformFilter = maccatalyst; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A5391166279797CA00ACA850 /* autocrop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autocrop; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5391169279797CA00ACA850 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A5391171279798F200ACA850 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A5391173279798FB00ACA850 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5391174279798FB00ACA850 /* Vision.framework in Frameworks */,
+				A5391172279798F200ACA850 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				A5391168279797CA00ACA850 /* autocrop */,
 				A5391167279797CA00ACA850 /* Products */,
+				A5391170279798F200ACA850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				A5391169279797CA00ACA850 /* main.swift */,
 			);
 			path = autocrop;
+			sourceTree = "<group>";
+		};
+		A5391170279798F200ACA850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5391173279798FB00ACA850 /* Vision.framework */,
+				A5391171279798F200ACA850 /* AppKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
